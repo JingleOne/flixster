@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,9 @@
 		ABB909E125AD37E800BEEE41 /* flixsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB909E025AD37E800BEEE41 /* flixsterUITests.swift */; };
 		ABB909F525AD396500BEEE41 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB909F425AD396500BEEE41 /* MoviesViewController.swift */; };
 		ABB909FA25AD595800BEEE41 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB909F925AD595800BEEE41 /* MovieCell.swift */; };
+		ABB90A1825B64A1C00BEEE41 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB90A1725B64A1C00BEEE41 /* MovieDetailsViewController.swift */; };
+		ABB90A1D25B68D0B00BEEE41 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB90A1C25B68D0B00BEEE41 /* MovieGridViewController.swift */; };
+		ABB90A2A25B6A6C300BEEE41 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB90A2925B6A6C300BEEE41 /* MovieGridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		ABB909E225AD37E800BEEE41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABB909F425AD396500BEEE41 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		ABB909F925AD595800BEEE41 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		ABB90A1725B64A1C00BEEE41 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		ABB90A1C25B68D0B00BEEE41 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		ABB90A2925B6A6C300BEEE41 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		D861B53E1F9F05C79471C1F3 /* Pods_flixsterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixsterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5CAF755FAABC2F76C19D80 /* Pods_flixster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,7 +119,6 @@
 				0EC98EA7AADC13D290BCCD96 /* Pods-flixsterTests.debug.xcconfig */,
 				348EB683AF9D82417D99BEB1 /* Pods-flixsterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,6 +155,9 @@
 				ABB909CC25AD37E800BEEE41 /* Info.plist */,
 				ABB909F425AD396500BEEE41 /* MoviesViewController.swift */,
 				ABB909F925AD595800BEEE41 /* MovieCell.swift */,
+				ABB90A1725B64A1C00BEEE41 /* MovieDetailsViewController.swift */,
+				ABB90A1C25B68D0B00BEEE41 /* MovieGridViewController.swift */,
+				ABB90A2925B6A6C300BEEE41 /* MovieGridCell.swift */,
 			);
 			path = flixster;
 			sourceTree = "<group>";
@@ -410,10 +418,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB90A1825B64A1C00BEEE41 /* MovieDetailsViewController.swift in Sources */,
 				ABB909BF25AD37E700BEEE41 /* AppDelegate.swift in Sources */,
 				ABB909C125AD37E700BEEE41 /* SceneDelegate.swift in Sources */,
 				ABB909FA25AD595800BEEE41 /* MovieCell.swift in Sources */,
 				ABB909F525AD396500BEEE41 /* MoviesViewController.swift in Sources */,
+				ABB90A1D25B68D0B00BEEE41 /* MovieGridViewController.swift in Sources */,
+				ABB90A2A25B6A6C300BEEE41 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
